@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(25, 240, 229) 0%, rgba(245, 240, 242, 1) 100%, rgb(8, 8, 228) 100%);
+}
+.container{
+    border: 5px solid rgb(19, 20, 20);
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(78, 236, 16, 0.925);
+    box-shadow: 20px 20px 30px rgba(19, 19, 19, 0.362), -20px -20px 30px rgba(6, 73, 218, 0.332);
+}
+input{
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(99, 216, 4, 0.326);
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgb(56, 230, 12);
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.489);
+    cursor: pointer;
+}
+.equal{
+    background-color: rgba(7, 180, 233, 0.656);
+}
+.operator{
+    color: rgb(70, 13, 226);
+    font-size: 20px;
+}
